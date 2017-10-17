@@ -33,7 +33,9 @@
   Migrate: truffle migrate
   Test:    truffle test
   ```
+
   *Tree structure of truffle project*
+
   ```
   ├── contracts
   │   ├── ConvertLib.sol
