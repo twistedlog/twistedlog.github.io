@@ -20,7 +20,6 @@
    ```
 
    *create a new truffle project*
-   {% gist 8387126 %}
    ```bash
    mkdir test
    cd test
