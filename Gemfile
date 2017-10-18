@@ -1,2 +1,4 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll-gist', group: :jekyll_plugins
+gem 'kramdown', group: :jekyll_plugins
+gem 'rouge', group: :jekyll_plugins

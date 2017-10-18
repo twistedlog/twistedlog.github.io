@@ -1,23 +1,27 @@
 # Setting up Smart Contract development environment 
 
 ## Things you need for setup
-1. *TestRPC*: TestRPC is an ethereum client for testing and development. This simulates a blockchain without mining and gives you a setup with randomly generated accounts.
-   *Installation*
-   ```
+1. TestRPC: TestRPC is an ethereum client for testing and development. This simulates a blockchain without mining and gives you a setup with randomly generated accounts.
+
+   Installation
+   ``` javascript
    npm install -g ethereumjs-testrpc
    ```
-   *Run testRPC*
-   ```
+   Run testRPC
+   ``` bash
    testrpc
    ```
 
-2. *Truffle*: Truffle is a framewrok that we will be using to develop smart contracts.
+2. *Truffle*: Truffle is a framework that we will be using to develop smart contracts.
+
    *Installation*
-   ```
+   ``` bash
    npm install -g truffle
    ```
-   *create a new project*
-   ```
+
+   *create a new truffle project*
+   {% gist 8387126 %}
+   ```bash
    mkdir test
    cd test
    truffle init
@@ -25,27 +29,27 @@
    Downloading project...
    Project initialized.
 
-  Documentation: http://truffleframework.com/docs
+   Documentation: http://truffleframework.com/docs
 
-  Commands:
+   Commands:
 
-  Compile: truffle compile
-  Migrate: truffle migrate
-  Test:    truffle test
-  ```
+   Compile: truffle compile
+   Migrate: truffle migrate
+   Test:    truffle test
+   ```
 
-  *Tree structure of truffle project*
+   Tree structure of truffle project
 
-  ```
-  ├── contracts
-  │   ├── ConvertLib.sol
-  │   ├── MetaCoin.sol
-  │   └── Migrations.sol
-  ├── migrations
-  │   ├── 1_initial_migration.js
-  │   └── 2_deploy_contracts.js
-  ├── test
-  │   ├── TestMetacoin.sol
-  │   └── metacoin.js
-  └── truffle.js
+   ```bash
+   ├── contracts
+   │   ├── ConvertLib.sol
+   │   ├── MetaCoin.sol
+   │   └── Migrations.sol
+   ├── migrations
+   │   ├── 1_initial_migration.js
+   │   └── 2_deploy_contracts.js
+   ├── test
+   │   ├── TestMetacoin.sol
+   │   └── metacoin.js
+   └── truffle.js
   ```
