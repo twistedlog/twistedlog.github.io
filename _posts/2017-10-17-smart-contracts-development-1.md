@@ -4,26 +4,26 @@
 1. TestRPC: TestRPC is an ethereum client for testing and development. This simulates a blockchain without mining and gives you a setup with randomly generated accounts.
 
    Installation
-   ``` javascript
-   npm install -g ethereumjs-testrpc
+   ``` bash
+   $ npm install -g ethereumjs-testrpc
    ```
    Run testRPC
    ``` bash
-   testrpc
+   $ testrpc
    ```
 
 2. *Truffle*: Truffle is a framework that we will be using to develop smart contracts.
 
    *Installation*
    ``` bash
-   npm install -g truffle
+   $ npm install -g truffle
    ```
 
    *create a new truffle project*
    ```bash
-   mkdir test
-   cd test
-   truffle init
+   $ mkdir test
+   $ cd test
+   $ truffle init
    
    Downloading project...
    Project initialized.
