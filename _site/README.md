@@ -1,2 +1,0 @@
-# twistedlog.github.io
-blog
