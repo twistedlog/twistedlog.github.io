@@ -39,3 +39,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+# Analytics
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-120523385-1
+    anonymizeIp: false
